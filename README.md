@@ -1,18 +1,96 @@
-# Sowmiya Thirugnanam — AWS Cloud & DevOps Portfolio
+# Sowmiya Thirugnanam | AWS Cloud & DevOps Engineer
 
-A responsive terminal-inspired portfolio built with React and Vite. Resume content and contact details are based on the supplied resume. The site includes an experience timeline, skill groups, selected projects, certifications, education, contact links, and a resume PDF download.
+Welcome to my portfolio! I am an AWS Certified Cloud Practitioner with 2.9 years of experience in Java backend development and a growing focus on AWS Cloud, DevOps, infrastructure automation, and monitoring.
 
-## Requirements
+I am building my expertise in cloud infrastructure, containerization, CI/CD pipelines, Infrastructure as Code (IaC), and observability through hands-on projects and practical learning.
 
-- Node.js 20 or newer (Node 20 LTS recommended)
-- npm (included with Node.js)
-- Git and a GitHub account for publishing
+This portfolio showcases my professional experience, technical skills, projects, certifications, and ongoing journey in AWS Cloud and DevOps engineering.
 
-## Run locally
+## About Me
 
-1. Extract this project folder.
-2. Open a terminal in the project folder.
-3. Install dependencies:
+- **Role:** AWS Cloud & DevOps Engineer
+- **Location:** Chennai, India
+- **Experience:** 2.9 years in Java backend development, with a focus on AWS Cloud and DevOps
+- **Certification:** AWS Certified Cloud Practitioner
+- **Interests:** Cloud infrastructure, CI/CD automation, containerization, Infrastructure as Code, and Site Reliability Engineering (SRE)
+
+## Technical Skills
+
+| Category | Technologies |
+|---|---|
+| Cloud | AWS EC2, S3, IAM, RDS, ECR, Lambda, EventBridge, CloudWatch, Route 53, Elastic Load Balancing, KMS |
+| DevOps & CI/CD | Git, GitHub, GitHub Actions, Jenkins |
+| Containers | Docker, Docker Compose, Kubernetes |
+| Infrastructure as Code | Terraform |
+| Monitoring & Observability | Prometheus, Grafana |
+| Operating Systems | Linux, Ubuntu |
+| Programming | Java, Python, Groovy |
+| Databases | PostgreSQL, MySQL |
+| Backend Development | Spring Boot, REST APIs, Apache OFBiz, Apache Tomcat |
+
+## Featured Project
+
+### Student Management API
+
+A REST API project demonstrating backend development, containerization, cloud deployment, and CI/CD automation.
+
+**Technologies:** Spring Boot, Docker, Terraform, AWS EC2, GitHub Actions, Prometheus, Grafana.
+
+- Developed REST API functionality for student management.
+- Containerized the application using Docker.
+- Used Terraform to provision AWS infrastructure.
+- Configured GitHub Actions for CI/CD automation.
+- Explored application monitoring with Prometheus and Grafana.
+
+*Add the actual GitHub repository URL when the project is publicly available.*
+
+## Professional Experience
+
+### AWS Cloud Developer — IVW Technology Solutions
+**August 2026 – Present | Chennai, India**
+
+Working on cloud application development and deployment, using tools and services including Linux, Docker, Docker Compose, Terraform, GitHub Actions, Amazon EC2, ECR, IAM, RDS, Route 53, Elastic Load Balancing, Lambda, EventBridge, and KMS.
+
+### Java–DevOps Engineer — Integrin Enterprise Solutions
+**March 2023 – November 2025**
+
+Worked on backend application development and supporting technologies, including Java, Groovy, Apache OFBiz, REST APIs, PostgreSQL, and Apache Tomcat, while building experience with Git, Docker, AWS services, Terraform, and CI/CD workflows.
+
+## Certifications & Learning
+
+- **AWS Certified Cloud Practitioner** — January 2026
+- **Certified DevOps — Greens Technology** — June–August 2026
+- **AWS Certified Solutions Architect – Associate** — In preparation
+
+## Education
+
+**Bachelor of Engineering — Computer Science and Engineering**  
+Government College of Engineering (IRTT), Erode  
+August 2018 – April 2022 | CGPA: 8.0
+
+## Contact
+
+- **Email:** sowmiya.t2112@gmail.com
+- **LinkedIn:** [Sowmiya Thirugnanam](https://www.linkedin.com/in/sowmiya-thirugnanam-626273218/)
+- **Location:** Chennai, India
+
+Feel free to connect with me to discuss AWS Cloud, DevOps engineering, infrastructure automation, and cloud-native application deployment.
+
+---
+
+## Run the Portfolio Locally
+
+### Prerequisites
+
+- Node.js 20 or newer
+- npm
+- Git (for version control and deployment)
+
+### Installation
+
+1. Clone or download this repository.
+2. Open a terminal in the project directory.
+3. Install the dependencies:
 
    ```bash
    npm install
@@ -24,57 +102,77 @@ A responsive terminal-inspired portfolio built with React and Vite. Resume conte
    npm run dev
    ```
 
-5. Open the local URL printed by Vite (usually `http://localhost:5173`).
+5. Open the local URL displayed by Vite, usually `http://localhost:5173`.
 
-To verify a production build locally:
+### Production Build
+
+Run the following commands to build and preview the production version:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Publish with GitHub Pages
+## Deploy to GitHub Pages
 
-The repository includes `.github/workflows/deploy.yml`. It builds the React site and deploys it to GitHub Pages whenever you push to `main`.
+This project uses React, Vite, and GitHub Actions to automate deployment to GitHub Pages.
 
-1. Create a **public** GitHub repository named exactly `sowmiya-cloud-devops-portfolio`.
-2. Upload/push the contents of this folder to the repository root. Make sure `package.json`, `index.html`, `src/`, `public/`, and `.github/` are at the root—not nested inside another project folder.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment → Source**, select **GitHub Actions**.
-5. Push to `main` (or run the workflow from **Actions → Deploy React portfolio to GitHub Pages → Run workflow**).
-6. When the workflow succeeds, your site will be available at:
+1. Create a public repository named `sowmiya-cloud-devops-portfolio`.
+2. Push the project files to the repository's `main` branch.
+3. Open **Settings → Pages** in your GitHub repository.
+4. Set the deployment source to **GitHub Actions**.
+5. Check the **Actions** tab and wait for the deployment workflow to succeed.
 
-   `https://YOUR-GITHUB-USERNAME.github.io/sowmiya-cloud-devops-portfolio/`
+Your portfolio URL will follow this format:
 
-   Replace `YOUR-GITHUB-USERNAME` with your GitHub username. The deployment URL is shown in the workflow run and in Settings → Pages.
+`https://YOUR-GITHUB-USERNAME.github.io/sowmiya-cloud-devops-portfolio/`
 
-### Git commands for first push
+Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
 
-Run these commands from this project folder after creating the empty GitHub repository:
+### Initial Git Setup
+
+Run these commands from the project directory:
 
 ```bash
 git init
 git add .
-git commit -m "Build React cloud and DevOps portfolio"
+git commit -m "Add AWS Cloud and DevOps portfolio"
 git branch -M main
 git remote add origin https://github.com/YOUR-GITHUB-USERNAME/sowmiya-cloud-devops-portfolio.git
 git push -u origin main
 ```
 
-Replace `YOUR-GITHUB-USERNAME` before running the `git remote` command. If the folder is already a Git repository, skip `git init`.
+Replace the placeholder with your GitHub username. If Git is already initialized, skip `git init`.
 
-## Make changes
+## Project Structure
 
-- Main content: `src/main.jsx`
-- Visual theme and responsive layout: `src/styles.css`
-- Resume PDF: `public/assets/SOWMIYA-T-DevOps-Engineer.pdf`
-- GitHub Pages deployment: `.github/workflows/deploy.yml`
+```text
+sowmiya-cloud-devops-portfolio/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── public/
+│   └── assets/
+│       └── SOWMIYA-T-DevOps-Engineer.pdf
+├── src/
+│   ├── main.jsx
+│   └── styles.css
+├── index.html
+├── package.json
+└── README.md
+```
 
-After editing, save the files and check the local preview. Commit and push the changes to `main`; GitHub Actions will redeploy the site.
+## Customization
 
-## Before publishing
+- **Portfolio content:** `src/main.jsx`
+- **Styling and terminal theme:** `src/styles.css`
+- **Resume PDF:** `public/assets/SOWMIYA-T-DevOps-Engineer.pdf`
+- **GitHub Pages deployment:** `.github/workflows/deploy.yml`
 
-- The Student Management API card intentionally has no guessed repository URL. Add your actual public repository link in `src/main.jsx` when you have it.
-- Work project details are kept at a high level and limited to the supplied resume. Check that you are permitted to publish employer/project details before making the repository public.
-- Contact details and the resume PDF are public on the website. Remove anything you do not want publicly accessible before publishing.
-- Google Fonts are loaded from Google Fonts when a visitor has internet access; system fallback fonts are included.
+After making changes, commit and push them to `main` to trigger a new deployment.
+
+## Notes
+
+- Keep project descriptions accurate and avoid publishing confidential employer information.
+- Ensure your public repository and website contain only the personal information you want to share.
+- Update project links when your repositories become available.
